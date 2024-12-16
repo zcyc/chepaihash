@@ -9,7 +9,8 @@ go install github.com/zcyc/chepaihash
 ```
 
 ```bash
-chepaihash helloworld # 湘L·3J9WF
+chepaihash helloworld
+# 湘L·3J9WF
 ```
 
 ## 作为 Lib 使用
@@ -32,7 +33,7 @@ import (
 
 func main() {
 	chepai, _ := chepaihash.Hash("helloworld")
-	fmt.Println(chepai)// 湘L·3J9WF
+	fmt.Println(chepai) // 湘L·3J9WF
 }
 ```
 
